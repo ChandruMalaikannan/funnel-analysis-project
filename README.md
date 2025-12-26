@@ -1,87 +1,40 @@
 📊 Funnel Analysis Project (MySQL + Power BI)
-🔍 Project Overview
+Project Overview
 
-This project focuses on analyzing a customer conversion funnel to understand how users move through different stages of a website, from entry to final conversion. The goal is to identify drop-off points, measure conversion efficiency, and provide data-driven insights to improve business performance.
+This project focuses on analyzing a customer conversion funnel to understand how users move through different website stages, from entry to final confirmation. The objective is to identify drop-off points, measure conversion efficiency, and support data-driven decision-making.
 
-🎯 Business Problem
+Business Objective
 
-Businesses often lose potential customers at different stages of their funnel without clearly knowing where and why it happens. This project answers:
+To evaluate user behavior across funnel stages and highlight areas where potential customers are lost, helping businesses improve conversions and overall performance.
 
-How many users reach each funnel stage?
+What I Did
 
-What is the conversion percentage between stages?
+Designed and managed the dataset using MySQL
 
-Where are the major user drop-offs?
+Performed data cleaning, aggregation, and funnel-stage analysis using SQL
 
-🗂️ Dataset Description
+Calculated key metrics such as funnel counts and conversion percentages
 
-The dataset contains user-level session data, including:
+Built an interactive Power BI dashboard with KPIs, funnel charts, and monthly trends
 
-Session ID and User ID
-
-Page Type (Home, Product, Cart, Checkout, Confirmation)
-
-Timestamp of activity
-
-Device Type and Country
-
-Referral Source
-
-Time spent on each page
-
-Items added to cart
-
-The data was stored and processed using MySQL before being visualized in Power BI.
-
-📈 Key Metrics & KPIs
+Key Metrics
 
 Total Sessions
 
-Total Converted Users
+Converted Users
 
-Funnel Stage-wise User Count
+Conversion % by Page Type
 
-Conversion Percentage by Page Type
+Monthly Confirmed Orders
 
-Monthly Conversion Trend
+Tools Used
 
-Drop-off Analysis
+MySQL | SQL | Power BI
 
-📊 Dashboard & Visuals
-
-The Power BI dashboard includes:
-
-Funnel chart showing user drop-offs
-
-KPI cards for conversion rate and total users
-
-Line chart for monthly confirmed orders
-
-Bar chart comparing conversion percentage by page type
-
-🛠️ Tools & Technologies Used
-
-MySQL – Database creation, data cleaning, and transformation
-
-Power BI – Data modeling, DAX calculations, and visualization
-
-SQL – Aggregations, filtering, and funnel logic
-
-💡 Key Insights
-
-Significant user drop-off observed between Product and Cart pages
-
-Mobile users showed lower conversion compared to desktop users
-
-Conversion rates improved during specific months, indicating seasonal trends
-
-📌 Conclusion
-
-This funnel analysis helps stakeholders clearly understand user behavior across different stages and identify optimization opportunities. The insights from this project can support marketing strategy, UX improvements, and conversion optimization decisions.
-
-🔗 Connect With Me
+🔗 Connect
 
 LinkedIn: www.linkedin.com/in/chandru-malaikannan
+
 GitHub: https://github.com/ChandruMalaikannan
 
-👉 To explore my other data analytics projects, please visit my GitHub profile using the link above.
+You can explore my other data analytics projects on GitHub using the link above.
